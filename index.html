@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أحمد طه | مطور ويب</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== خلفية الجسيمات ===== -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- ===== شاشة التحميل ===== -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>جاري التحميل...</p>
+        </div>
+    </div>
+
+    <!-- ===== شريط التنقل ===== -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                أحمد
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                <li><a href="#about" class="nav-link">عني</a></li>
+                <li><a href="#skills" class="nav-link">المهارات</a></li>
+                <li><a href="#portfolio" class="nav-link">أعمالي</a></li>
+                <li><a href="#experience" class="nav-link">الخبرات</a></li>
+                <li><a href="#contact" class="nav-link">تواصل</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="تبديل الوضع">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="hamburger" class="hamburger" aria-label="القائمة">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== القسم الرئيسي ===== -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting" data-aos>مرحباً بكم 👋</p>
+                <h1 class="hero-name" data-aos>
+                    أنا <span class="gradient-text">أحمد طه</span>
+                </h1>
+                <div class="hero-title-wrapper" data-aos>
+                    <span class="hero-title-prefix">أعمل كـ</span>
+                    <span class="typed-text" id="typed-text"></span>
+                    <span class="typed-cursor">|</span>
+                </div>
+                <p class="hero-description" data-aos>
+                        طالب ثانوي مهتم بالبرمجه
+                </p>
+                <div class="hero-buttons" data-aos>
+                    <a href="#portfolio" class="btn btn-primary">
+                        <span>استعرض أعمالي</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>تواصل معي</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="hero-socials" data-aos>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos>
+                <div class="image-wrapper">
+                    <div class="image-border"></div>
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+                <div class="floating-badge badge-1">
+                    <i class="fas fa-code"></i>
+                    <span>طالب</span>
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>مشروعان</span>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>اكتشف المزيد</span>
+        </a>
+    </section>
+
+    <!-- ===== قسم عني ===== -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-subtitle">تعرف عليّ</span>
+                <h2 class="section-title">نبذة <span class="gradient-text">عني</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos>
+                    <div class="about-img-wrapper">
+                        <div class="about-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="exp-number" data-count="5">0</span>
+                            <span class="exp-text">سنوات خبرة</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info" data-aos>
+                    <h3>Ahmed Taha <span class="gradient-text">Pro-Modder </span></h3>
+                    <p>
+                        انا طالب ثانوي لدي خبرات في البرمجه والهندسه العكسيه و تعديل الذاكره
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <span>الاسم:</span>
+                                <strong>أحمد طه</strong>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span>البريد:</span>
+                                <strong>Ahmedtaha2742008@gmail.com</strong>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span>الموقع:</span>
+                                <strong>بسيون، الغربيه</strong>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span>المؤهل:</span>
+                                <strong>خبره في التهكير وتعديل والهندسه العكسيه للالعاب</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="25">0</span>
+                            <span class="stat-plus">+</span>
+                            <span class="stat-label">سكربت Cheat Engine</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="12">0</span>
+                            <span class="stat-plus">+</span>
+                            <span class="stat-label">لعبة تم تعديلها</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="500">0</span>
+                            <span class="stat-plus">+</span>
+                            <span class="stat-label">ساعة بحث وتعديل</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary" id="download-cv">
+                        <span>تحميل السيرة الذاتية</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== قسم المهارات ===== -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-subtitle">ماذا أتقن</span>
+                <h2 class="section-title">مهاراتي <span class="gradient-text">التقنية</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos>
+                        <div class="skill-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <h4>Ghidra</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="92"></div>
+                        </div>
+                        <span class="skill-percent">92%</span>
+                    </div>
+                    <div class="skill-card" data-aos>
+                        <div class="skill-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h4>Cheat Engine</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-card" data-aos>
+                        <div class="skill-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h4>Memory Manipulation</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                        <span class="skill-percent">88%</span>
+                    </div>
+                    <div class="skill-card" data-aos>
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>Assembly Basics</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-card" data-aos>
+                        <div class="skill-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h4>Game Modding</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="87"></div>
+                        </div>
+                        <span class="skill-percent">87%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== قسم الأعمال ===== -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-subtitle">معرض الأعمال</span>
+                <h2 class="section-title">أحدث <span class="gradient-text">مشاريعي</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="portfolio-filters" data-aos>
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="web">مواقع</button>
+                <button class="filter-btn" data-filter="app">تطبيقات</button>
+                <button class="filter-btn" data-filter="design">تصميم</button>
+            </div>
+            <div class="portfolio-grid">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== قسم الخبرات ===== -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-subtitle">مسيرتي المهنية</span>
+                <h2 class="section-title">الخبرات <span class="gradient-text">والتعليم</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">الحالي</span>
+                        <h3>طالب ثانوية عامة</h3>
+                        <h4>قسم علمي</h4>
+                        <p>I love to mod games</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - الآن</span>
+                        <h3>التعلم الذاتي</h3>
+                        <h4>Self-Taught</h4>
+                        <p>باحث في الهندسة العكسية وتعديل الألعاب، متخصص في استخدام أدوات مثل Ghidra و Cheat Engine</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== قسم التواصل ===== -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-subtitle">لنتحدث</span>
+                <h2 class="section-title">تواصل <span class="gradient-text">معي</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos>
+                    <h3>هل لديك مشروع في ذهنك؟</h3>
+                    <p>لا تتردد في التواصل معي. أنا دائماً سعيد بمناقشة مشاريع جديدة وأفكار إبداعية.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>البريد الإلكتروني</h4>
+                                <p>Ahmedtaha2742008@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4>الهاتف</h4>
+                                <p dir="ltr">+20 101 303 2037</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>الموقع</h4>
+                                <p>بسيون, الغربيه</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="#" class="social-circle"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-circle"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-circle"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-circle"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form" data-aos>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">الاسم الكامل</label>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">البريد الإلكتروني</label>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder=" ">
+                        <label for="subject">الموضوع</label>
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">الرسالة</label>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>إرسال الرسالة</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div class="form-status" id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== الفوتر ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>
+                    أحمد
+                    <span class="logo-bracket">/&gt;</span>
+                </div>
+                <p>صُنع بـ <i class="fas fa-heart"></i> بواسطة أحمد طه&copy; <span id="year"></span></p>
+                <div class="footer-links">
+                    <a href="#home">الرئيسية</a>
+                    <a href="#about">عني</a>
+                    <a href="#skills">المهارات</a>
+                    <a href="#portfolio">أعمالي</a>
+                    <a href="#contact">تواصل</a>
+                </div>
+            </div>
+        </div>
+        <button id="back-to-top" class="back-to-top" aria-label="العودة للأعلى">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
