@@ -2,8 +2,6 @@
 
 # 🌐 My-Web — الموقع الشخصي
 
-<img src="https://readme-typing-svg.demolab.com?font=Cairo&size=22&pause=1000&color=6C5CE7&center=true&vCenter=true&width=500&lines=موقع+شخصي+تفاعلي+واحترافي;مبني+بـ+HTML+%2F+CSS+%2F+JavaScript;بطموح+نحو+الألعاب+وما+هو+أبعد!" alt="Typing SVG" />
-
 <br/>
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
