@@ -189,8 +189,12 @@ const ctx = canvas.getContext('2d');
 | 📍 الموقع | بسيون، الغربية، مصر |
 | 📧 البريد | Ahmedtaha2742008@gmail.com |
 | 🐙 GitHub | [@Ahmedtaha2008](https://github.com/Ahmedtaha2008) |
+| 𝕏 X (تويتر) | [@AhmedTaha177431](https://x.com/AhmedTaha177431) |
+| 📘 Facebook | [صفحتي على فيسبوك](https://www.facebook.com/profile.php?id=61576734878231) |
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ahmedtaha2008-181717?style=for-the-badge&logo=github)](https://github.com/Ahmedtaha2008)
+[![X](https://img.shields.io/badge/X-%40AhmedTaha177431-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AhmedTaha177431)
+[![Facebook](https://img.shields.io/badge/Facebook-تابعني-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=61576734878231)
 [![Gmail](https://img.shields.io/badge/Email-تواصل_معي-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Ahmedtaha2742008@gmail.com)
 
 </div>
