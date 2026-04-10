@@ -1,211 +1,132 @@
 <div align="center">
 
-# 🌐 My-Web — الموقع الشخصي
+<h1>
+  &lt;<strong>أحمد</strong> /&gt;
+</h1>
 
-<br/>
+<p>موقع بورتفوليو شخصي — مبني بـ HTML · CSS · JavaScript خالص</p>
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-[![GitHub stars](https://img.shields.io/github/stars/Ahmedtaha2008/My-web?style=for-the-badge&color=6c5ce7)](https://github.com/Ahmedtaha2008/My-web/stargazers)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](./LICENSE)
-[![Arabic RTL](https://img.shields.io/badge/Arabic-RTL-blue?style=for-the-badge)](https://github.com/Ahmedtaha2008/My-web)
-
-<br/>
-
-> **موقع شخصي تفاعلي** صُنع في وقت الفراغ بمساعدة الذكاء الاصطناعي،  
-> مع طموح لتوسيعه ليحتوي على **ألعاب ويب** في المستقبل! 🎮
-
-[🔗 معاينة حية](#) &nbsp;&nbsp;|&nbsp;&nbsp; [📁 الكود المصدري](https://github.com/Ahmedtaha2008/My-web) &nbsp;&nbsp;|&nbsp;&nbsp; [🐛 الإبلاغ عن مشكلة](https://github.com/Ahmedtaha2008/My-web/issues)
+[![Live Demo](https://img.shields.io/badge/🌐_معاينة_حية-ahmedtahaweb.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://ahmedtahaweb.netlify.app/)
+[![License](https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge&logo=apache&logoColor=white)](LICENSE)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://ahmedtahaweb.netlify.app/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://ahmedtahaweb.netlify.app/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://ahmedtahaweb.netlify.app/)
 
 </div>
 
 ---
 
-## 📋 فهرس المحتويات
+## 🖥️ معاينة حية
 
-- [✨ المميزات](#-المميزات)
-- [🛠 التقنيات](#-التقنيات)
-- [📁 هيكلية المشروع](#-هيكلية-المشروع)
-- [🚀 طريقة التشغيل](#-طريقة-التشغيل)
-- [🗺 خارطة الطريق](#-خارطة-الطريق)
-- [🎨 التخصيص](#-التخصيص)
-- [📄 الرخصة](#-الرخصة)
-- [👨‍💻 عن المطور](#-عن-المطور)
+> 🔗 **[https://ahmedtahaweb.netlify.app/](https://ahmedtahaweb.netlify.app/)**
 
 ---
 
-## ✨ المميزات
+## 📋 نظرة عامة
 
-| الميزة | الوصف |
-|--------|-------|
-| 🌙 **الوضع الليلي / النهاري** | تبديل سلس مع حفظ التفضيل في `localStorage` |
-| 📱 **تصميم متجاوب** | يعمل على الجوال والتابلت والكمبيوتر |
-| 🎆 **خلفية جسيمات تفاعلية** | تتفاعل مع حركة الماوس في الوقت الفعلي |
-| ⌨️ **تأثير الكتابة التلقائية** | عرض المسميات الوظيفية بشكل متحرك |
-| 📊 **أشرطة المهارات** | مع أنيميشن عند الظهور في نطاق الرؤية |
-| 🔽 **تمرير سلس** | بين أقسام الصفحة مع زر العودة للأعلى |
-| 📬 **نموذج تواصل** | مع التحقق من صحة البيانات |
-| 🌐 **دعم اللغة العربية** | خط Cairo مع اتجاه RTL كامل |
+موقع بورتفوليو شخصي أحادي الصفحة (SPA) يعمل بدون أي إطارات عمل خارجية، مبني بـ Vanilla HTML/CSS/JS فقط. يدعم اتجاه النص من اليمين إلى اليسار (RTL) بالكامل ويعرض:
+
+- **الرئيسية** — تعريف سريع مع تأثير الكتابة المتحركة  
+- **نبذة عني** — معلومات شخصية ومسار التعلم  
+- **المهارات** — شريط تقدم لكل مهارة تقنية (Ghidra, Cheat Engine, Memory Manipulation…)  
+- **أعمالي** — معرض مشاريع مع فلترة (مواقع / تطبيقات / تصميم)  
+- **الخبرات** — خط زمني للمسيرة التعليمية  
+- **تواصل** — نموذج تواصل مع بيانات مباشرة  
 
 ---
 
-## 🛠 التقنيات
-
-```
-المشروع يعتمد فقط على الويب الأساسي — لا مكتبات خارجية، لا Frameworks.
-```
-
-| التقنية | الاستخدام |
-|---------|-----------|
-| **HTML5 Semantic** | هيكلية المحتوى وإمكانية الوصول |
-| **CSS3** | التصميم، المتغيرات، الأنيميشن، Flexbox/Grid |
-| **Vanilla JavaScript ES6+** | التفاعلية والوظائف والأنيميشن |
-| **Font Awesome** | الأيقونات الاحترافية |
-| **Google Fonts (Cairo)** | خط عربي واضح وجميل |
-
----
-
-## 📁 هيكلية المشروع
+## 🗂️ هيكلة المشروع
 
 ```
 My-web/
 │
-├── 📄 index.html       ← الصفحة الرئيسية والهيكل الكامل
-├── 🎨 style.css        ← كل التنسيقات والأنيميشن والثيمات
-├── ⚙️  script.js       ← منطق التفاعلية والجافاسكريبت
-└── 📄 README.md        ← هذا الملف
+├── index.html          # الهيكل الرئيسي للصفحة (RTL, Arabic)
+│
+├── css/
+│   └── style.css       # جميع الأنماط — متغيرات CSS، ريسبونسف، أنيميشن
+│
+├── js/
+│   └── main.js         # المنطق التفاعلي — قائمة التنقل، تأثير الكتابة،
+│                       # فلترة المعرض، تأثيرات التمرير، نموذج التواصل
+│
+├── assets/
+│   └── images/         # صور المشاريع والأيقونات
+│
+├── LICENSE             # رخصة Apache 2.0
+└── README.md           # هذا الملف
 ```
-
-> 📌 **ملاحظة:** المشروع نظيف ومبسّط — صفحة واحدة، ثلاثة ملفات.
 
 ---
 
-## 🚀 طريقة التشغيل
+## ⚙️ طريقة التشغيل
 
-### ▶️ تشغيل محلي
+### الطريقة الأولى — فتح مباشر (الأسرع)
 
 ```bash
-# استنساخ المستودع
+# استنسخ المستودع
 git clone https://github.com/Ahmedtaha2008/My-web.git
+
+# ادخل المجلد
 cd My-web
 
-# تشغيل خادم محلي
-python -m http.server 8000
-# أو باستخدام Node.js
+# افتح الملف مباشرة في المتصفح
+start index.html        # Windows
+open index.html         # macOS
+xdg-open index.html     # Linux
+```
+
+### الطريقة الثانية — سيرفر محلي (موصى به للتطوير)
+
+> يُنصح باستخدام سيرفر محلي لتفادي مشاكل CORS عند تحميل الأصول.
+
+**باستخدام VS Code + Live Server:**
+1. ثبّت إضافة [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+2. افتح المجلد في VS Code
+3. انقر بالزر الأيمن على `index.html` ← **Open with Live Server**
+4. سيفتح الموقع تلقائياً على `http://127.0.0.1:5500`
+
+**باستخدام Python:**
+```bash
+# Python 3
+python -m http.server 8080
+
+# افتح في المتصفح
+http://localhost:8080
+```
+
+**باستخدام Node.js:**
+```bash
 npx serve .
 ```
 
-ثم افتح المتصفح على: `http://localhost:8000`
-
-> يمكنك أيضاً فتح `index.html` مباشرة بالنقر المزدوج عليه.
-
-### 🌍 النشر على GitHub Pages
-
-```
-1. اذهب إلى Settings → Pages
-2. اختر: Branch → main | Folder → / (root)
-3. اضغط Save ✅
-```
-
-سيكون الموقع متاحاً على: `https://ahmedtaha2008.github.io/My-web`
-
 ---
 
-## 🗺 خارطة الطريق
+## 🛠️ التقنيات المستخدمة
 
-هذا المشروع مجرد **البداية** — الطموح أكبر! 🚀
-
-```
-المرحلة الحالية ✅
-└── موقع شخصي (Portfolio) — مكتمل
-
-المرحلة القادمة 🔄
-└── قسم الألعاب
-    ├── 🎮 لعبة #1 — لعبة بسيطة بـ Canvas/JS (قريباً)
-    ├── 🕹️ لعبة #2 — تحدي أو ذاكرة (مخطط)
-    └── 🎯 لعبة #3 — مزيد من الأفكار (مستقبلاً)
-
-المرحلة البعيدة 💡
-├── نظام تسجيل دخول للمستخدمين
-├── لوحة نتائج عالمية (Leaderboard)
-└── ألعاب متعددة اللاعبين
-```
-
-> 💬 هل لديك فكرة لعبة تريد رؤيتها؟ افتح [Issue](https://github.com/Ahmedtaha2008/My-web/issues) وشاركني!
-
----
-
-## 🎨 التخصيص
-
-### تعديل الألوان الرئيسية
-
-في `style.css`، ابحث عن `:root` وعدّل:
-
-```css
-:root {
-  --primary:    #6c5ce7;   /* البنفسجي الأساسي */
-  --secondary:  #00cec9;   /* الأزرق الفيروزي */
-  --accent:     #fd79a8;   /* الوردي للمميزات */
-}
-```
-
-### إضافة لعبة جديدة (مستقبلاً)
-
-```html
-<!-- في index.html — داخل قسم الألعاب -->
-<div class="game-card">
-  <canvas id="myGame" width="400" height="400"></canvas>
-  <h3>اسم اللعبة</h3>
-</div>
-```
-
-```javascript
-// في script.js أو ملف منفصل game.js
-const canvas = document.getElementById('myGame');
-const ctx = canvas.getContext('2d');
-// ابدأ منطق اللعبة هنا...
-```
+| التقنية | الاستخدام |
+|---|---|
+| **HTML5** | هيكل الصفحة، دعم RTL كامل |
+| **CSS3** | متغيرات، Flexbox، Grid، أنيميشن، ريسبونسف |
+| **JavaScript (ES6+)** | تفاعلية، Intersection Observer، تأثير الكتابة |
 
 ---
 
 ## 📄 الرخصة
 
-موزّع تحت **MIT License** — أي شخص حر في استخدام الكود أو تعديله أو توزيعه.  
-راجع ملف [LICENSE](./LICENSE) للتفاصيل الكاملة.
+هذا المشروع مرخص تحت **رخصة Apache 2.0** — راجع ملف [LICENSE](LICENSE) للتفاصيل الكاملة.
 
----
+```
+Copyright 2024 Ahmed Taha
 
-## 👨‍💻 عن المطور
-
-<div align="center">
-
-**أحمد طه**  
-طالب ثانوي | مطور هاوي | شغوف بالهندسة العكسية
-
-| | |
-|---|---|
-| 📍 الموقع | بسيون، الغربية، مصر |
-| 📧 البريد | Ahmedtaha2742008@gmail.com |
-
-| 𝕏 X (تويتر) | [@AhmedTaha177431](https://x.com/AhmedTaha177431) |
-| 📘 Facebook | [صفحتي على فيسبوك](https://www.facebook.com/profile.php?id=61576734878231) | 
-
-[![X](https://img.shields.io/badge/X-%40AhmedTaha177431-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AhmedTaha177431)
-[![Facebook](https://img.shields.io/badge/Facebook-تابعني-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=61576734878231)
-[![Gmail](https://img.shields.io/badge/Email-تواصل_معي-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Ahmedtaha2742008@gmail.com)
-
-</div>
+Licensed under the Apache License, Version 2.0
+```
 
 ---
 
 <div align="center">
 
-**صُنع بـ ❤️ وبمساعدة الذكاء الاصطناعي — بواسطة أحمد طه**
+صُنع بـ ❤️ بواسطة **أحمد طه**
 
-⭐ إذا أعجبك المشروع، النجمة تعني الكثير! ⭐
-
-*آخر تحديث: أبريل 2026*
+[![Portfolio](https://img.shields.io/badge/Portfolio-ahmedtahaweb.netlify.app-00C7B7?style=flat-square)](https://ahmedtahaweb.netlify.app/)
 
 </div>
